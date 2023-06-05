@@ -1,13 +1,99 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .heading_style {
+    width: 100%;
+    height: 10%;
+    padding: 30px 0;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: white;
+    background-color: #0b0a0a;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    }
+  .cards{
+    width: 100%;
+    height: 90%;
+    padding-left: 45px;
+    padding-right: 0.5px;
+  }
+  
+  .card{
+    
+    width: 30%;
+    height: auto;
+    margin: 1%;
+    transition: all 0.1s ease;
+    background-color: black;
+    width: 15;
+    border-radius: 20px;
+    box-shadow: 5px 20px 10px -5px rgba(58, 20, 120, 0.1);
+    float: left;
+  }
+  .card_img{
+    width: 100%;
+    height: 230px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    /* padding: 16px 24px 24px 24px; */
+    background-color: black;  
+  
+  }
+  .card_info{
+    width: 100%;
+    background-color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 16px 24px 24px 24px; 
+    /* padding: 15px 100px; */
+  }
+  .card__category{
+    /* width: 100%; */
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 0px 10px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    color: rgb(56, 56, 57);
+    /* background-color: rgb(188, 186, 196); */
+  
+  }
+  .card_title{
+    width: 60%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "cursive";
+    /* background-color: rgb(188, 186, 196); */
+    text-transform: capitalize;
+    padding: 0px 10px;
+  }
+  button{
+    margin-left: 10px;
+    padding: 5px 8px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    border: 1px solid black;
+    background-color: rgb(188, 186, 196);
+    color: #0b0a0a;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  button:hover{
+    background-color: white;
+  }
+  .card:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 15px 30px 10px -5px rgba(58, 20, 120, 0.1);
+  }
+  
+  
